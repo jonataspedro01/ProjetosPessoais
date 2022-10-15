@@ -1,0 +1,17 @@
+ul{
+  /*  list-style-image: url(cang.jpg); */
+    font-size: 25px;
+    list-style-position: outside; 
+    border: 1px black solid;
+    
+}
+ol{
+    list-style-type: circle;
+    font-size: 25px;
+    list-style-position: inside;
+    
+}
+
+li{
+    border: 1px black solid;
+}

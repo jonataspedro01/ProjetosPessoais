@@ -1,0 +1,19 @@
+#d1, #d2, #d3{
+
+    border: 10px dotted black;
+    padding: 0px 100px 50px 0px;
+    background-image: url(cang.jpg);
+
+}
+
+#d1{
+    background-clip: border-box;
+}
+
+#d2{
+    background-clip: padding-box;
+}
+
+#d3{
+    background-clip: content-box;
+}

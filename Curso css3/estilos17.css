@@ -1,0 +1,36 @@
+h1{
+    color: black;
+    text-decoration: none;
+    text-transform: lowercase;
+    text-align: justify;
+}
+.h1{
+    letter-spacing: 10px;
+    direction: ltr;
+}
+.h2{
+    text-transform: uppercase;
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    white-space: nowrap;
+    overflow: auto;
+    word-break:break-all;
+}
+.h3{
+    
+    text-transform: capitalize;
+}
+.h4{
+    text-indent: 100px;
+    direction: rtl;
+    word-spacing: 10px;
+    
+}
+.h5{
+   line-height: 2;
+   text-align-last: center;
+}
+a{
+    text-decoration: none;
+}

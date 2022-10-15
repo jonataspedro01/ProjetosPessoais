@@ -1,0 +1,18 @@
+#d1
+{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border-style: solid;
+    border-width: 10px;
+    border-color: orange;
+}
+#d2
+{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    border-color: orange;
+    border-style: solid;
+    border-width: 10px;
+}

@@ -1,0 +1,22 @@
+table, td, th{
+    border: 1px solid blue;
+    text-align: center;
+}
+table{
+    width: 600px;
+  table-layout: fixed;
+  border-collapse: collapse;
+
+}
+td, th{
+    height: 50px;
+}
+th{
+    background-color: bisque;
+    font-size: 26px;
+}
+
+
+tr:nth-child(even){
+    background-color: rgb(177, 138, 138);
+}

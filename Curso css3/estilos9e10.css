@@ -1,0 +1,22 @@
+h1{
+    border: black solid 10px;
+    border-right: blue  double 10px;
+    border-top: yellow solid 20px;
+    border-left-color: green;
+}
+h2{
+    border: red solid 20px;
+    border-left-color: blueviolet;
+    border-bottom-width: 40px;
+    border-bottom-style:groove;
+}
+p{
+    border: black solid 20px;
+    border-radius: 20px;
+    height: 50px;
+    width: 130px;
+}
+h3{ 
+    border-radius: 20px;
+    border: brown solid 20px;
+}

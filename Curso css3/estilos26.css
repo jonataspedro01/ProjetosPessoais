@@ -1,0 +1,20 @@
+div , span {
+    border: 1px solid green;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+#d1{
+    display: inline-block;
+}
+#s1{
+    display: inline-block;
+}
+#d2{
+    display: inline-block;
+}
+
+#s2{
+    display: inline-block;
+}

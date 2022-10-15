@@ -1,0 +1,23 @@
+p {  color: red;
+     font-size:20pt;
+}
+
+#p1 { 
+    color:#00f ;
+}
+
+#p2 {
+    color: green;
+}
+
+.txt{
+
+    color:#080;
+    font-size:30pt;
+}
+
+h4, h5, h6 {
+    
+    color: yellow;
+    font-size: 20pt;
+}

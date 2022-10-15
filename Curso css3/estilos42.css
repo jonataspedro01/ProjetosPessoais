@@ -1,0 +1,23 @@
+p{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    width: 870px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: justify;
+   
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+   
+    column-gap: 30px;
+    -webkit-column-gap: 30px;
+    -moz-column-gap: 30px;
+
+    column-rule: 10px outset blueviolet;
+    -webkit-column-rule: 10px outset blueviolet;
+    -moz-column-rule: 10px outset blueviolet;
+}

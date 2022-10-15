@@ -1,0 +1,12 @@
+section{
+    border: 3px solid red;
+    display: flex;
+    
+}
+
+div{
+    border: 1px solid black;
+    flex: 1px;
+    text-align: center;
+}
+

@@ -1,0 +1,20 @@
+p{
+    width: 320px;
+    height: 150px;
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    transition: width 2s, transform 2s, height 2s, backgrond-color 2s, color 2s;
+transition-timing-function: linear;
+transition-delay: 0s;
+}
+
+p:hover{
+    width: 500px;
+    height: 120px;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    transform: rotate(360deg);
+}

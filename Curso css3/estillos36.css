@@ -1,0 +1,12 @@
+p::before{
+    content: "Nome : ";
+    color: red;
+}
+
+p::after{
+    content:" - FIM";
+}
+
+p{
+    font-size: 30px;
+}

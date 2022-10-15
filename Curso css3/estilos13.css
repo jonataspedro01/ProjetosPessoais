@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+}
+
+div {
+    border: 1px solid black;
+    margin: auto;
+}
+#dv1{
+    margin:auto; 
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-left: 50px;
+    width: 300xp;
+    margin-bottom: 50px;
+}
+
+
+#dv2{
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+#dv3{
+    margin: 10px;
+    margin-bottom: 50px;
+}

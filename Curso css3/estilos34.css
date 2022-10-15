@@ -1,0 +1,20 @@
+img{
+    border: 1px solid orange;
+
+}
+
+#img1{
+    float: left;
+}
+
+#img2{
+    float: right;
+}
+
+p{
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}

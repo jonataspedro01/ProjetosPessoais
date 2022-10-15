@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+      <base href="Módulos">
+  </base>
+    <title>AULAS DE HTML</title>
+  <style type="text/css">
+      cite{display: block;}
+      blockquote{color: red;}
+      .br01{
+        line-height: 0;
+      }
+      canvas{
+        border: 1px black solid;
+      }
+      button{
+        background-color: black;
+        color:orange;
+        width: 150;
+        height: 40px;
+        border: 3px blue solid;
+        border-radius: 10px;
+      }
+      button:hover{
+     cursor: pointer;
+    background-color: yellow;
+    color: black;
+      }
+  </style>
+  <script>
+    function desenha(){
+      var canvas = document.getElementById('canvas');
+      var ctx = canvas.getContext('2d');
+      ctx.fillRect(25, 25, 100, 100);
+    }
+  </script>
+        </head>
+
+        <body>
+            <p>Aula 11- Tag Negrito</p>
+   <article>
+       <h1>Jonatas Pedro da silva</h1>
+
+       <p>hfdhdfjhdfjdhfjdfdfhd
+           hjdhfdj<b>Primeiro parágrafo</b>fhdjfhdjfdjjjd
+           jhfdjhdjfdjfdfjdhfdjfdj
+           jhjdhfdjfhdjfhdjfdfjdjj.</p>
+
+       <p>hfdhdfjhdfjdhfjdfdfhd
+        hjdhfdj<b>Segundo parágrafo</b>fhdjfhdjfdjjjd
+        jhfdjhdjfdjfdfjdhfdjfdj.</p>
+
+    <p>hfdhdfjhd<b>Terceiro parágrafo</b>fjdhfjdfdfhd
+        jhjdhfdjfhdjfhdjfdfjdjj.</p>
+   </article>
+  
+   <p>Aula 12</p>
+
+   <img src="../jacinara.jpeg" width="200px" height="200px">
+   
+
+
+   <p>Aula  13 </p>
+
+   <bdo dir="rtl">TEXTO AO CONTRÁRIO</bdo>
+
+
+    <p>Aula 14 : tags blockquote e cite</p>
+       <p>Trabalhando com citações</p>
+    <article>
+        <p>kjkdjfkjfdkdjfkdjfkdjfdkfjdfk</p>
+       <blockquote>
+           <p>ofojdofjdofjdfodfodfdojfd
+            ofdofjdofdofdofjdfodjfodf
+            ojdfojdfodfodfodfodfodfjdof
+            ojfdofjdofdodofjdofjdofjdof
+            ojfdojodfjdofdjfod
+            </p>
+            <cite>jdsjdjsjsjs</cite>
+            <cite>J.P. ddd</cite>
+            <cite>O.O. ddddd</cite>
+    </blockquote>
+    </article>
+    <div class="br01">
+  <h2>Aula 15 : tag br</h2>
+  <p><a href="https://google.com.br">GOOGLE</a></p>
+   <p><a href="#">GOOGLE</a></p>
+   <p></p><a href="#">GOOGLE</a></p>
+   <p> <a href="#">GOOGLE</a></p>
+   <p></p><a href="#">GOOGLE</a></p>
+</div>
+
+<p>AULA 16: BUTTON </p>
+  <!--
+    submit
+    reset
+    button
+  -->
+  <button type="button" form="f_cadastro" 
+  onclick="alert('Valeu!');">
+      CLICA EM MIM!
+  </button>
+  <p>Aula 17</p>
+    <canvas id="canvas" width="500px" height="500px">
+      Seu navegador não tem suporte ao 
+      elemento canvas!
+    </canvas>
+    <script>desenha();</script>
+    <p>Aula 18 - tags : code e pre</p>
+  
+    <pre>
+      <code> 
+    #include &lsaquo;stdio.h&rsaquo;
+    #include &lsaquo;stdlib.h&rsaquo;
+    #include &lsaquo;locale.h&rsaquo;
+
+    in main(){
+      
+      setlocale(LC_ALL, "Portuguese");
+      printf("Código básico em C");
+      system("pause");
+
+      return 0;
+    }
+  </code>
+    
+
+  </pre>
+  
+  <p>Aula 19 - tags del e ins</p>
+  <article>
+    <p>Meu curso favorito é 
+      <del>HTML</del><ins>CSS</ins></p>
+    <p>Lista de cursos</p>
+    
+    <ul>
+      <li><del cite="" datetime="28-04-2022">HTML</del></li>
+      <li>xxxxxxxxx</li>
+      <li>xxxxxxxxx</li>
+      <li>PHP</li>
+      <li>C++</li>
+      <li>xxxxxxxxx</li>
+      <li>xxxxxxxxx</li>
+      <li>xxxxxxxxx</li>
+    </ul>
+  </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     </body>
+
+        </html>
