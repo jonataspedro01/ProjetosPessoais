@@ -1,0 +1,42 @@
+<html lang="pt-br">
+<head>
+    <title>Aula 10 - JavaScript</title>
+    <meta charset="utf-8">
+    <style type="text/css">
+  body{
+    background-color: azure;
+  }
+    </style>
+</head>
+<body>
+ <h1>
+    <script>
+
+   var nota = 100;
+   var res;
+
+   if(nota >=60){
+      res="Aprovado"
+      if(nota >= 95){
+         res+=" com louvor";
+      }else{ 
+         res+=" com nota normal";
+      }
+   }else if (nota >= 40) {
+      res="Recuperação";
+   }else{
+      res="Reprovado"
+      if(nota >=20){
+      res+=" por nota baixa";   
+      }else{
+      res+=" com louvor";
+   }
+  }
+
+   document.write(res);
+
+   </script>
+ </h1>
+
+</body>
+</html>
