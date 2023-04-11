@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(241, 217, 176);
+}
+
+main {
+    background-color: rgb(170, 167, 162);
+}
+
+.container__um , .container__dois , .container__tres {
+    display: flex;
+}
+
+.container__um {
+    justify-content: space-around;
+}
+
+.um {
+    background-color: blueviolet;
+    border: 3px solid rgb(8, 8, 8);
+    width: 200px;
+    height: 100px;
+}
+
+.dois {
+    background-color: yellowgreen;
+    border: 3px solid rgb(13, 13, 13);
+    width: 200px;
+    height: 100px;
+}
+
+.tres {
+    background-color: red;
+    border: 3px solid rgb(11, 11, 11);
+    width: 200px;
+    height: 100px;
+}
+
+.container__dois {
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.quatro {
+    background-color: blueviolet;
+    border: 3px solid rgb(8, 8, 8);
+    width: 200px;
+    height: 100px;
+    
+}
+
+.cinco {
+    background-color: yellowgreen;
+    border: 3px solid rgb(13, 13, 13);
+    width: 200px;
+    height: 100px;
+}
+
+.seis {
+    background-color: red;
+    border: 3px solid rgb(11, 11, 11);
+    width: 200px;
+    height: 100px;
+}
+
+.container__tres {
+    margin-top: 6%;
+    justify-content: space-between;
+}
+
+.sete {
+    background-color: blueviolet;
+    border: 3px solid rgb(8, 8, 8);
+    width: 200px;
+    height: 100px;
+    
+}
+
+.oito {
+    background-color: yellowgreen;
+    border: 3px solid rgb(13, 13, 13);
+    width: 200px;
+    height: 100px;
+}
+
+.nove {
+    background-color: red;
+    border: 3px solid rgb(11, 11, 11);
+    width: 200px;
+    height: 100px;
+}
+
+.dez {
+    background-color: red;
+    border: 3px solid rgb(11, 11, 11);
+    width: 200px;
+    height: 100px;
+}
