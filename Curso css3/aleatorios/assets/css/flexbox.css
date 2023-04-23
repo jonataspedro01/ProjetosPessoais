@@ -8,92 +8,49 @@ main {
     background-color: rgb(170, 167, 162);
 }
 
-.container__um , .container__dois , .container__tres {
+.container__um , .container__dois , .container__tres  , .container__quatro , .container__cinco , .container__seis{
     display: flex;
+    border: 2px solid black;
 }
 
 .container__um {
-    justify-content: space-around;
-}
-
-.um {
-    background-color: blueviolet;
-    border: 3px solid rgb(8, 8, 8);
-    width: 200px;
-    height: 100px;
-}
-
-.dois {
-    background-color: yellowgreen;
-    border: 3px solid rgb(13, 13, 13);
-    width: 200px;
-    height: 100px;
-}
-
-.tres {
-    background-color: red;
-    border: 3px solid rgb(11, 11, 11);
-    width: 200px;
-    height: 100px;
+    justify-content: flex-start;
 }
 
 .container__dois {
-    margin-top: 5%;
-    justify-content: center;
-}
-
-.quatro {
-    background-color: blueviolet;
-    border: 3px solid rgb(8, 8, 8);
-    width: 200px;
-    height: 100px;
-    
-}
-
-.cinco {
-    background-color: yellowgreen;
-    border: 3px solid rgb(13, 13, 13);
-    width: 200px;
-    height: 100px;
-}
-
-.seis {
-    background-color: red;
-    border: 3px solid rgb(11, 11, 11);
-    width: 200px;
-    height: 100px;
+    justify-content: flex-end;
 }
 
 .container__tres {
-    margin-top: 6%;
+    justify-content: center;
+}
+
+.container__quatro {
     justify-content: space-between;
 }
 
-.sete {
+.container__cinco {
+    justify-content: space-around;
+}
+
+.container__seis {
+    justify-content: space-evenly;
+}
+
+.um , .quatro , .sete , .dez , .treze, .dezeseis {
     background-color: blueviolet;
-    border: 3px solid rgb(8, 8, 8);
     width: 200px;
     height: 100px;
-    
 }
 
-.oito {
+.dois , .cinco , .oito, .onze , .quatorze, .dezesete {
     background-color: yellowgreen;
-    border: 3px solid rgb(13, 13, 13);
     width: 200px;
     height: 100px;
 }
 
-.nove {
+.tres , .seis , .nove , .doze , .quinze , .dezoito {
     background-color: red;
-    border: 3px solid rgb(11, 11, 11);
-    width: 200px;
-    height: 100px;
-}
-
-.dez {
-    background-color: red;
-    border: 3px solid rgb(11, 11, 11);
     width: 200px;
     height: 100px;
 }

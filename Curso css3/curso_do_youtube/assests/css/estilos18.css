@@ -1,4 +1,8 @@
-p{
+body {
+    background-color: rgb(243, 218, 186);
+}
+
+p {
     font-family: Arial, "Times New Roman", sans-serif;
     font-style: italic;
     font-size: 25px;
@@ -6,3 +10,4 @@ p{
     font-weight: bold;
     font-variant: small-caps;
 }
+

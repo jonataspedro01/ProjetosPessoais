@@ -1,24 +1,34 @@
-#obmenu{
-    width: 100%;
+body {
     margin: 0px;
-    padding: 0px;
+    background-color: rgb(190, 190, 184);
 }
 
-a{
-    text-decoration: none;
-    background-color: red;
+h1 {
+    text-align: center;
+}
+
+.links__position {
     color: black;
     padding: 0px;
     margin: 0px;
     display: table-cell;
     text-align: center;
-    vertical-align: middle;
-    width: 300px;
-    right: 340px;
+    width: 344px;
     font-size: 38px;
-
+    vertical-align: middle;
+    background-color: rgb(138, 50, 50);
 }
 
-a:hover{
-    background-color: yellowgreen;
+#obmenu {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.links__position:hover {
+    background-color: rgb(217, 227, 197);
 }

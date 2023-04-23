@@ -1,12 +1,24 @@
-h3{
+body {
+    background-color: rgb(184, 212, 132);
+}
+
+h3 {
     font-size: 45pt;
     color: red;
     text-shadow: 5px 5px 5px black;
+    text-align: center;
 }
-#div1{
+
+#div1 {
     width: 300px;
     height: 300p;
     border: 1px solid black;
     box-shadow: 10px 10px 10px #888;
     text-align: center;
+    margin: 0 auto;
+}
+
+#div1:hover {
+    background-color: rgb(192, 183, 183);
+    cursor: pointer;
 }

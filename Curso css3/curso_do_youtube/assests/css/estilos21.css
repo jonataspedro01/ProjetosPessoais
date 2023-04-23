@@ -1,11 +1,25 @@
-#dv1{
-    width: 200px;
+body {
+  background-color: rgb(202, 95, 95);
+}
+
+#dv1 {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 250px;
     height: 200px;
     border: 1px solid black;
-    transform: translate(400px, 40px) rotate(15deg);
-   /*  transform: rotate(15deg); */
-   /*  transform: scale(2); */
-  /*   transform: skewX(25deg) */
-    /*  transform: skewY(25deg) */
+    transform: translate(400px, 20px) rotate(5deg);
+    /* transform: rotate(5deg); 
+    transform: scale(2);
+    transform: skewX(25deg);
+    transform: skewY(25deg); */
     transform-origin: 100% 110%;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+}
+
+#dv1:hover {
+  background-color: aquamarine;
 }

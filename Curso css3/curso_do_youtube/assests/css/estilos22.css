@@ -1,14 +1,19 @@
-#dv1{
-    width: 270px;
-    height: 270px;
-    border: 1px solid red;
+body {
+    perspective: 200px;
+    background-color: rgb(234, 208, 169);
+}
 
+#dv1 {
+    width: 200px;
+    height: 200px;
+    border: 4px solid rgb(68, 66, 66);
     transform: rotateY(45deg);
     background-color: orangered;
     color: black;
-    text-align: center;
+    margin-left: 40%;
+    margin-top: 10%;
 }
 
-body{
-    perspective: 1640px;
+h1 {
+   text-align: center;
 }

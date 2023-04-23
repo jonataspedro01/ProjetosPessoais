@@ -1,13 +1,19 @@
-p{
-    font-size:50px;
+body {
+    background-color: rgb(159, 106, 209);
 }
 
-div{
-    width: 500px;
-    left: 150px;
-    height: 500px;
-    top: 0px;
+p {
+    font-size:50px;
+    margin: 0 auto;
+}
+
+div {
+    width: 300px;
+    left: 190px;
+    height: 300px;
+    top: 10px;
     background: rgba( 80, 120, 255, 0.5);
     position: absolute;
+    margin: 0 auto;
 }
 

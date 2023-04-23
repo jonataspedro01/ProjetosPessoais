@@ -1,8 +1,9 @@
 body{
     margin: 0px;
+    background-color: #dbd2d2;
 }
 
-div{
+div {
     border: 1px solid black;
     width: 500px;
     margin: auto;
@@ -10,14 +11,14 @@ div{
     text-align: center;
 }
 
-#div1{ 
+#div1 { 
     padding: 100px;
 }
 
-#div2{ 
+#div2 { 
     padding: 50px;
 }
 
-#div3{ 
+#div3 { 
     padding: 25px;
 }

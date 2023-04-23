@@ -1,17 +1,21 @@
-ul{
-  /*  list-style-image: url(cang.jpg); */
+body {
+    background-color: azure;
+}
+
+ul {
+    list-style-image: url(../img/cang.jpg); 
     font-size: 25px;
     list-style-position: outside; 
     border: 1px black solid;
     
 }
-ol{
+
+ol {
     list-style-type: circle;
     font-size: 25px;
-    list-style-position: inside;
-    
+    list-style-position: inside;  
 }
 
-li{
+li {
     border: 1px black solid;
 }

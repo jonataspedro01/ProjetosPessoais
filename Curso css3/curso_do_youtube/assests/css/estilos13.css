@@ -1,12 +1,18 @@
-body{
+body {
     margin: 0px;
+    background-color: antiquewhite;
 }
 
 div {
     border: 1px solid black;
     margin: auto;
+    background: yellowgreen;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
 }
-#dv1{
+
+#dv1 {
     margin:auto; 
     margin-top: 50px;
     margin-right: 200px;
@@ -15,13 +21,12 @@ div {
     margin-bottom: 50px;
 }
 
-
-#dv2{
+#dv2 {
     margin: 10px;
     margin-bottom: 50px;
 }
 
-#dv3{
+#dv3 {
     margin: 10px;
     margin-bottom: 50px;
 }

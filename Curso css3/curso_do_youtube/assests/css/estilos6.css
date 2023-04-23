@@ -1,6 +1,9 @@
-body{
-    background-image: url(feiraimg.png);
+body {
+    background-image: url(../img/mercado-da-construção-civil-em-crescimento-1024x672.png);
     background-repeat: repeat;
     background-size: 300px;
     background-attachment: fixed;
+    font-size: 22px;
+    color: #121213;
+    font-weight: bold;
 }

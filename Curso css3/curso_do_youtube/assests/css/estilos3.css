@@ -1,5 +1,11 @@
-p{
+body {
+    background-color: #9ad0a4;
+}
+
+p {
     font-size:20pt;
     font-weight:bold;
-    color:#9BB09F;
+    color:#2a2c2a;
+    margin: 0 auto;
+    text-align: center;
 }

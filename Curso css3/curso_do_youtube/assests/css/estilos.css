@@ -1,5 +1,10 @@
+body {
+    background-color: rgb(194, 194, 236);
+    text-align: center;
+}
+
 p {  color: red;
-     font-size:20pt;
+     font-size: 20px;
 }
 
 #p1 { 
@@ -11,13 +16,11 @@ p {  color: red;
 }
 
 .txt{
-
     color:#080;
-    font-size:30pt;
+    font-size:30px;
 }
 
 h4, h5, h6 {
-    
     color: yellow;
-    font-size: 20pt;
+    font-size: 20px;
 }

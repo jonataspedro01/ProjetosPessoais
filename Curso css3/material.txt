@@ -1,0 +1,61 @@
+Orientações gerais para organização de código
+
+- Estilização por ordem alfabética.
+ex: 
+.container {
+    background-color: blue;
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+};
+
+- Dividir os arquivos css por seção.
+- Nomear as Divs com a metodologia 'BEM'.
+
+A metodologia BEM (Block Element Modifier) é uma convenção de nomenclatura 
+para nomear classes em CSS. Ela foi criada para ajudar a manter a consistência 
+e organização no código CSS, especialmente em projetos grandes e complexos.
+
+Na metodologia BEM, cada classe CSS é nomeada de acordo com a sua função no HTML. 
+O nome da classe começa com um "bloco" (ou componente) que representa uma seção 
+maior da página, seguido de um "elemento" que é uma parte menor e relacionada ao 
+bloco e, opcionalmente, um "modificador" que altera o estilo ou o comportamento 
+do bloco ou elemento.
+
+Por exemplo, em um botão, o bloco seria "button", o elemento seria "icon" 
+(se houver um ícone dentro do botão) e o modificador poderia ser "disabled" 
+se o botão estivesse desativado.
+
+A estrutura da classe ficaria assim: .button, .button__icon e .button--disabled. 
+Isso torna o código CSS mais fácil de entender e modificar, além de ajudar na 
+reutilização de estilos em diferentes partes da página.
+
+- Além disso, podem ser organizado com a pasta assets, incluindo as pages, css, img e etc 
+dentro dela.
+
+Sempre que possível trabalhar com o EMMET para criar blocos de código HTML.
+
+Emmet é uma ferramenta que ajuda a acelerar o processo de escrever código HTML e CSS. 
+Ela permite que os desenvolvedores escrevam códigos HTML e CSS de forma mais rápida e 
+eficiente, usando uma sintaxe simplificada que pode ser expandida em código HTML completo.
+
+A sintaxe do Emmet é baseada em abreviações, que podem ser expandidas em código HTML completo. 
+Por exemplo, em vez de escrever todo o código HTML para uma lista não ordenada, é possível 
+usar a abreviação "ul>li*3" para criar uma lista com três itens. O Emmet então expande 
+essa abreviação para o código HTML completo, economizando tempo e esforço.
+
+Além disso, o Emmet também é útil para criar rapidamente códigos CSS, permitindo a 
+criação de várias regras CSS em uma única linha de código. Por exemplo, a abreviação 
+"bgc#f00.fs14.p10" pode ser usada para criar uma regra CSS para um elemento com um 
+fundo vermelho (#f00), tamanho de fonte de 14px (fs14) e preenchimento de 10 pixels (p10).
+
+O Emmet é suportado em diversos editores de código, como Visual Studio Code, 
+Sublime Text, Atom e muitos outros, tornando-o uma ferramenta popular entre 
+desenvolvedores web.
+
+Atalhos vs code :
+
+(Ctrl + ;) = Para comentar linhas de códidgos

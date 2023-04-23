@@ -1,37 +1,55 @@
-#div1 , #div2, #div3, #div4{
+#div1 , #div2, #div3, #div4 {
     text-align: center;
-    
+    margin: 0 auto;
 }
 
-#div1{
+h1 {
+    margin-top: 42%;
+}
+
+#div1 {
     width: 300px;
     height: 300px;
     border: 1px #000 solid;
     background: linear-gradient(to right, red 10%, yellow, pink 30%);
-    
 }
 
-#div2{
+#div2 {
     width: 300px;
     height: 300px;
     border: 1px #000 solid;
     background: linear-gradient(to bottom, red, yellow, blue, black);
+    margin-top: 5px;
 }
-#div3{
+
+#div3 {
     width: 300px;
     height: 300px;
     border: 1px #000 solid;
     background: linear-gradient(to top, red, yellow);
+    margin-top: 5px;
 }
-#div4{
+
+#div3 h1 {
+    margin-top: 45%;
+}
+
+#div4 {
     width: 300px;
     height: 300px;
     border: 1px #000 solid;
     background: radial-gradient(circle, red, yellow);
+    margin-top: 5px;
 }
-h3{
+
+#div4 h1 {
+    margin-top: 45%;
+}
+
+h3 {
     font-size: 30pt;
     background: linear-gradient(to right, red, yellow 60%);
     -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    background-clip: text;
+    margin-top: 5px;
 }
