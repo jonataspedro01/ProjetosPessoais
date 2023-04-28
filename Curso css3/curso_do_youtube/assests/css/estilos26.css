@@ -1,20 +1,30 @@
+body {
+    background-color: rgb(75, 93, 93);
+}
+
 div , span {
-    border: 1px solid green;
+    border: 3px solid green;
     margin: 10px;
-    width: 100px;
-    height: 100px;
+    width: 70px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    margin: 10 auto;
+    padding-top: 30px;
 }
 
-#d1{
-    display: inline-block;
-}
-#s1{
-    display: inline-block;
-}
-#d2{
+#d1 {
     display: inline-block;
 }
 
-#s2{
+#s1 {
+    display: inline-block;
+}
+
+#d2 {
+    display: inline-block;
+}
+
+#s2 {
     display: inline-block;
 }

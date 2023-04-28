@@ -1,18 +1,25 @@
-p{
-    width: 320px;
-    height: 150px;
-    border: 1px solid blueviolet;
+body {
+    background-color: rgb(64, 165, 111);
+}
+
+p {
+    width: 130px;
+    height: 110px;
+    border: 3px solid rgb(133, 118, 148);
     border-radius: 10px;
     padding: 10px;
     text-align: center;
     transition: width 2s, transform 2s, height 2s, backgrond-color 2s, color 2s;
-transition-timing-function: linear;
-transition-delay: 0s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+    font-size: 20px;
+    margin: 0 auto;
+    font-weight: bold;
 }
 
 p:hover{
-    width: 500px;
-    height: 120px;
+    width: 200px;
+    height: 100px;
     background-color: yellow;
     color: black;
     text-align: center;

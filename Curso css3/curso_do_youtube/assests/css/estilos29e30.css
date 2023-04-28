@@ -1,44 +1,50 @@
-section{
-    border: 3px solid red;
-    display: flex;
-    
-    
+body {
+    background-color: rgb(98, 71, 37);
 }
 
-div{
-    border: 1px solid black;
-    /*flex: 1px; */
+section {
+    border: 3px solid red;
+    display: flex;  
+    padding: 10px;
+}
+
+div {
+    border: 1px solid rgb(219, 212, 212);
+    /* flex: 1px; */
     text-align: center;
+    color: white;
+    background-color: black;
     flex-shrink: 1;
 }
 
-#d1{
+#d1 {
    order:1;
    width: 100px;
    flex-grow: 1;
 }
 
-#d2{
+#d2 {
     order:2;
     width: 100px;
 }
 
-#d3{
+#d3 {
     order:3;
     width: 100px;
     flex-basis: 30%;
 }
 
-#d4{
+#d4 {
     order:4;
     width: 100px;
 }
-#d5{
+
+#d5 {
     order:5;
     width: 100px;
 }
 
-#d6{
+#d6 {
     order:6;
     width: 100px;
     flex-grow: 1;

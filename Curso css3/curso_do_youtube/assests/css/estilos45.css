@@ -1,11 +1,12 @@
-img{
+img {
 filter: grayscale(75%);
 filter: blur(0.3px);
 filter: brightness(110%);
 filter: contrast(79%);
 margin-left: 38%;
 }
-body{
+
+body {
     margin: 10px;
     background-color: rgb(101, 110, 110);
 }

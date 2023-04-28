@@ -1,17 +1,26 @@
-p{
-    font-size: 30px;
+body {
+    background-color: rgb(153, 216, 216);
 }
 
-P::first-letter{
+p {
+    font-size: 30px;
+    text-align: center;
+}
+
+P::first-letter {
     font-size: 40px;
     color: green;
 }
 
-h3::first-line{
+h3::first-line {
       background:blue;
 }
 
-::selection{
+h3 {
+    text-align: center;
+}
+
+::selection {
     color: orangered;
     background: yellowgreen;
 }

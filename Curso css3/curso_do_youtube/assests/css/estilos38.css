@@ -1,18 +1,27 @@
-p{
-    width: 320px;
-    height: 150px;
-    border: 1px solid blueviolet;
+body {
+    background-color: rgb(64, 165, 111);
+}
+
+p {
+    width: 250px;
+    height: 50px;
+    border: 3px solid rgb(31, 31, 32);
     border-radius: 10px;
     padding: 10px;
     text-align: center;
     transition: width 2s, height 2s, backgrond-color 2s, color 2s;
-transition-timing-function: linear;
+    transition-timing-function: linear;
+    font-size: 20px;
+    margin: 0 auto;
+    font-weight: bold;
+    background-color: aliceblue;
 }
 
-p:hover{
-    width: 500px;
-    height: 120px;
+p:hover {
+    width: 350px;
+    height: 55px;
     background-color: yellow;
     color: black;
     text-align: center;
+    cursor: pointer;
 }

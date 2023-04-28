@@ -1,4 +1,4 @@
-nav{
+nav {
     background-color: orangered;
     text-align: right;
     display: flex; 
@@ -6,7 +6,7 @@ nav{
     flex-wrap: wrap;
 }
 
-nav a{
+nav a {
     min-width: 80px;
     max-width: 80px;
     height: 80px;
@@ -16,42 +16,47 @@ nav a{
     justify-content: center;
 }
 
-
-
-section{
+section {
     justify-content: center;
     display: flex; 
     flex-wrap: wrap;  
 }
 
-section div{
-    border: 1px solid black;
+section div {
+    /* border: 1px solid black; */
     flex: 1;
     margin: 5px;
     min-width: 200px;
     max-width: 200px;
     min-height: 100px;
     max-height: 100px;
+    margin-top: 30px;
 }
 
-div{
+div {
     border: 1px solid red;
     /*flex: 1px; */
-    text-align: center;
-    
-    text-align: left;
     flex-grow: 1;
     display: inline-block;
-    display: flex;
+    /* display: flex; */
+    text-align: center;
 }
 
-
-footer{
+footer {
     background-color: rgb(128, 122, 122);
     color: white;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-     height: 30px;
+    height: 30px;
+    margin-top: 150px;
+}
+
+body {
+    background-color: rgb(222, 191, 152);
+}
+
+header {
+    text-align: center;
 }

@@ -1,15 +1,24 @@
-div{
-    border: 1px solid black;
-    background-color: tomato;
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
-    text-align: center;
-    display: table-cell;
-    vertical-align: middle;
+body {
+    background-color: rgb(225, 192, 149);
 }
 
-ol, ul, li{
+p {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+div {
+    border: 2px solid black;
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    margin-left: 46%;
+}
+
+ol, ul, li {
     border: 1px solid black;
     margin: 0px;
     padding: 0px;
@@ -19,22 +28,25 @@ ol, ul, li{
     vertical-align: middle;
 }
 
-ol{
+ol {
     display: table;
-    margin-top: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 
-ul{
+ul {
     display: table-row;
 }
 
-li{
+li {
     display: table-cell;
 }
 
-.titulo{
+.titulo {
     background-color: turquoise;
+    font-weight: bold;
 }
 
-
-
+.conteudo {
+    background-color: rgb(167, 223, 93);
+}

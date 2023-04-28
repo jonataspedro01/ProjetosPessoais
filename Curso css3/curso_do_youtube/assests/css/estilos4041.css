@@ -1,27 +1,33 @@
-@keyframes anima{
+body {
+    background-color: rgb(249, 147, 93);
+}
+
+@keyframes anima {
     0%{left:0px ; top: 0px}
     25%{left: 500px; top: 0px}
     50%{left: 500px; top: 500px}
     75%{left: 0px; top: 500px}
     100%{left: 0px; top: 0px}
-
 }
 
-p{
+p {
     position: relative;
     left: 0px;
     top: 0px;
-    width: 340px;
+    width: 170px;
     height: 90px;
-    border: 1px solid blueviolet;
+    border: 4px solid rgb(119, 104, 133);
     border-radius: 10px;
     padding: 5px;
     text-align: center;
     animation-name: anima;
-    animation-duration: 6s;
+    animation-duration: 10s;
     animation-timing-function: linear;
     animation-delay: 0s;
     animation-iteration-count: infinite;
     animation-play-state: running;
     animation-direction: alternate;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(223, 213, 213);
 }

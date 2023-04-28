@@ -1,12 +1,18 @@
-p::before{
-    content: "Nome : ";
-    color: red;
+body {
+    background-color: rgb(59, 89, 89);
 }
 
-p::after{
+p::before {
+    content: "Nome : ";
+    color: rgb(194, 164, 164);
+}
+
+p::after {
     content:" - FIM";
 }
 
-p{
+p {
     font-size: 30px;
+    color: white;
+    text-align: center;
 }

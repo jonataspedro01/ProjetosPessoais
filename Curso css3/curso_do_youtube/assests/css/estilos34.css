@@ -1,20 +1,27 @@
-img{
-    border: 1px solid orange;
-
+body {
+    background-color: rgb(183, 196, 208);
 }
 
-#img1{
+img {
+    border: 1px solid orange;
+}
+
+#img1 {
     float: left;
 }
 
-#img2{
+#img2 {
     float: right;
 }
 
-p{
+p {
     text-align: center;
+    font-size: 15px;
+    font-weight: bold;
 }
 
-.clear{
+.clear {
     clear: both;
+    font-size: 20px;
+    font-weight: bold;
 }
