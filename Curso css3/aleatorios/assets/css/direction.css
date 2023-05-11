@@ -1,0 +1,87 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(244, 244, 180);
+}
+
+main {
+    font-size: 23px;
+    margin: 0 auto;
+    color: rgb(13, 1, 1);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+}
+
+section p {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.green {
+    background-color: green;
+    width: 40px;
+    height: 70px;
+    padding-top: 28px;
+}
+
+.yellow {
+    background-color: yellow;
+    width: 40px;
+    height: 70px;
+    padding-top: 28px;
+}
+
+.orange {
+    background-color: orange;
+    width: 40px;
+    height: 70px;
+    padding-top: 28px;
+}
+
+.red {
+    background-color: red;
+    width: 40px;
+    height: 70px;
+    padding-top: 28px;
+}
+
+.uno {
+    flex-direction: row;
+    padding: 10px;
+}
+
+.dos {
+    flex-direction: column;
+    padding: 10px;
+}
+
+.dos p {
+    margin-top: 10px;
+}
+
+.tres {
+    flex-direction: row-reverse;    
+    padding: 10px;
+}
+
+.cuatro {
+    flex-direction: column-reverse;    
+    padding: 10px;
+}
+
+.cuatro p {
+    margin-top: 10px;
+}
+
+div {
+    display: flex;
+}
+
+.container section {
+    margin: 0 auto;
+}
+

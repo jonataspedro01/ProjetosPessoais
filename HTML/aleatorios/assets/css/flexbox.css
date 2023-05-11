@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(225, 225, 149);
+}
+
+div  {
+    display: flex;
+}
+
+p {
+    text-align: center;
+}
+
+.one  {
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.two  {
+    flex-direction: row-reverse;
+    justify-content: center; 
+}
+        
+.three  {
+    flex-direction: column; 
+    margin-top: 50px;
+}
+
+.four  {
+    flex-direction: column-reverse; 
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+}
+

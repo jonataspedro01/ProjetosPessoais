@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(211, 196, 196); 
+}
+
+section {
+ color: rgb(23, 22, 21);
+ font-size: 17px;
+ text-align: center;
+}
+
+input {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}

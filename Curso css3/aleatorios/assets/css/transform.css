@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(247, 220, 185);
+}
+
+section {
+    margin-top: 20px;
+    display: flex;
+}
+
+.um , .dois , .tres , .quatro , .cinco{
+    width: 150px;
+    height: 100px;
+    border: 3px solid black;
+    margin: 5px;
+    margin: 0 auto;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.um {
+    background-color: orange;
+}
+
+.um:hover {
+    transform: rotate(20deg);
+}
+
+.dois {
+    background-color: rgb(134, 125, 108);
+}
+
+.dois:hover {
+    transform: scale(0.8);
+}
+
+.tres {
+    background-color: rgb(166, 25, 95);
+}
+
+.tres:hover {
+    transform: skew(15deg, 10deg);
+}
+
+.quatro {
+    background-color: rgb(115, 165, 127);
+}
+
+.quatro:hover {
+    transform: translate(10px, 5px);
+}
+
+.cinco {
+    background-color: rgb(190, 51, 65);
+}
+
+.cinco:hover {
+    transform: matrix(0, 1, 1, 0, 0, 0);
+}

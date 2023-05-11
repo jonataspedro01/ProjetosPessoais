@@ -1,0 +1,176 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(223, 233, 113);
+}
+
+main {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+.uno__uno , .uno__dos {
+    width: 170px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+    cursor: text;
+    vertical-align:baseline;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+div p {
+    padding-top: 16px;
+}
+
+.uno__uno:hover {
+    color: rgb(247, 248, 247);
+}
+
+.uno__dos:hover {
+    color: rgb(247, 248, 247);
+}
+
+.uno .uno__uno {
+    background-color: #008FFF;
+}
+
+.uno .uno__dos {
+    background-color: #45ADFF;
+}
+
+.dos .uno__uno {
+    background-color: #50E3C2;
+}
+
+.dos .uno__dos {
+    background-color: #73FFE0;
+}
+
+.tres .uno__uno {
+    background-color: #FF5436;
+}
+
+.tres .uno__dos {
+    background-color: #FF8975;
+}
+
+.cuatro .uno__uno {
+    background-color: #6200EE;
+}
+
+.cuatro .uno__dos {
+    background-color: #BB86FC;
+}
+
+.cinco .uno__uno {
+    background-color: #E39801;
+}
+
+.cinco .uno__dos {
+    background-color: #F1C40F;
+}
+
+.seis .uno__uno {
+    background-color: #8EAF20;
+}
+
+.seis .uno__dos {
+    background-color: #A5C53C;
+}
+
+.siete .uno__uno {
+    background-color: #2C3F50;
+}
+
+.siete .uno__dos {
+    background-color: #34495E;
+}
+
+.ocho .uno__uno {
+    background-color: #018786;
+}
+
+.ocho .uno__dos {
+    background-color: #03DAC6;
+}
+
+.nueve .uno__uno {
+    background-color: #B00020;
+}
+
+.nueve .uno__dos {
+    background-color: #CF6679;
+}
+
+.dez .uno__uno {
+    background-color: #BEC3C7;
+}
+
+.dez .uno__dos {
+    background-color: #EBF1F1;
+}
+
+.once .uno__uno {
+    background-color: #E054B8;
+}
+
+.once .uno__dos {
+    background-color: #FF74D9;
+}
+
+.doce .uno__uno {
+    background-color: #309054;
+}
+
+.doce .uno__dos {
+    background-color: #44CC77;
+}
+
+.fonte {
+    padding-top: 20px;
+}
+
+.fonte__link {
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 12%;
+    color: black;
+}
+
+    /* Responsividade */
+
+@media screen and (min-width: 0) {
+
+    main {
+        margin: 0 auto;
+        display: table;
+    }  
+
+   div {
+    display: block;
+    justify-content: center;
+   } 
+
+}
+
+@media screen and (min-width: 400px) {
+
+    div {
+     display: flex;
+     justify-content: center;
+    }
+
+    main {
+        display: block;
+    }
+ } 

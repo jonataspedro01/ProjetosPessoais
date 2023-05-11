@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 5px;
+    background-color: aqua;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}

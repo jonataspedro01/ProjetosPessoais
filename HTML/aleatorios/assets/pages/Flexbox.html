@@ -4,30 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox</title>
-    <style type="text/css">
-   
-  p{
-    display: flex;
-  }
-        .one p{
-            flex-direction:row; 
-         
-        }
-        .two p{
-            flex-direction: row-reverse; 
-            display:inline-flex;
-        }
-      
-        .three p{
-            flex-direction: column; 
-        }
-        .four p{
-            flex-direction: column-reverse; 
-        }
-    </style>
+    <title>flexDirection</title>
+    <link rel="stylesheet" href="../css/flexbox.css">
 </head>
+
 <body>
+
     <p>flex-direction: row;</p>
     <div class="one">
         <p>A</p>
@@ -42,19 +24,22 @@
         <p>C</p>
         <p>D</p>
     </div>
-    <p>flex-direction: column;</p>
-    <div class="three">
-        <p>A</p>
-        <p>B</p>
-        <p>C</p>
-        <p>D</p>
-    </div>
-    <p>flex-direction: column-reverse;</p>
-    <div class="four">
-        <p>A</p>
-        <p>B</p>
-        <p>C</p>
-        <p>D</p>
-    </div>
+    <section class="container">
+        <p>flex-direction: column;</p>
+        <div class="three">
+            <p>A</p>
+            <p>B</p>
+            <p>C</p>
+            <p>D</p>
+        </div>
+        <p>flex-direction: column-reverse;</p>
+        <div class="four">
+            <p>A</p>
+            <p>B</p>
+            <p>C</p>
+            <p>D</p>
+        </div>
+    </section>
+
 </body>
 </html>

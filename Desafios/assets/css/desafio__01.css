@@ -1,0 +1,30 @@
+.primeiro {
+    background-color: rgb(189, 206, 247); 
+}
+
+a {
+  text-decoration: none;
+  color: rgb(33, 32, 32);
+} 
+
+ul {
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+    font-size: 18px;
+}
+
+.logo {
+    margin-left: 3%;
+    display:grid;
+    color: rgb(98, 93, 93);
+    cursor: pointer;
+}
+
+a:hover {
+    color:bisque;
+}
+
+body {
+    background-color: rgb(236, 227, 227);
+    margin: 0px;
+}
