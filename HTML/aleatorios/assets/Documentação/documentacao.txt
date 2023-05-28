@@ -1,0 +1,14 @@
+Algumas tags HTML:
+
+<a> - Hiperlink
+<br> - Quebra de linha
+<img> - Imagens
+<h1> / <h6> - Níveis de título
+<div> - Criar seções e divisões 
+<head> - Cabeçalho
+<title> - Título da página
+<li> - Itens de listas
+<i> -  Texto itálico
+<ul> - Lista NÃO ordenada
+<ol> - Lista ordenada 
+<form> - Criar um formulário
