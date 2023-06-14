@@ -1,0 +1,16 @@
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+p {
+    background-color: #FF0043;
+    width: 130px;
+    color: white;
+    border: 1px solid black;
+}
+   
+.texto {
+    display: flex;
+    justify-content: space-around;
+}
